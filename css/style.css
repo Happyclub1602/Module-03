@@ -1,0 +1,109 @@
+html {
+box-sizing: border-box;
+}
+
+.conteiner {
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+*, *::before, *::after {
+box-sizing: inherit;
+}
+.page-nav {
+  padding: 72px 0; 
+  margin-bottom: 26px;
+}
+.site-navigation {
+   display: inline-block;
+   width: 900px;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 14px;
+   list-style: none;
+   margin: 0;
+   padding: 0; 
+}
+.site-navigation li {
+    display: inline-block;
+    margin-right: 108px;
+}
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+.site-navigation a {
+    display: block;
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: darkred;
+}
+.features {
+    margin-bottom: 52px;
+}
+.features-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.features-list-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 420px;
+    /*text-align: left;*/
+    padding-bottom: 136px;
+    margin-top: 0px;
+}
+.features-list-item:not(:nth-child(2n)) {
+    margin-right: 60px;
+}
+.features-list-item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+}
+.features-list-item h4 {
+    font-size: 14px;
+    padding-bottom: 28px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.features-list-item h2 {
+    font-size: 30px;
+    padding-bottom: 36px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+}
+.features-list-item p {
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+}
+.load-more-button {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    margin: 0 320px;
+}
